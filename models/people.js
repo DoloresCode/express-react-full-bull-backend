@@ -10,3 +10,4 @@ const PeopleSchema = new mongoose.Schema({
 })
 
 const People = mongoose.model('People', PeopleSchema)
+module.exports= People;
